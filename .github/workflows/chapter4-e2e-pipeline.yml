@@ -78,6 +78,7 @@ jobs:
   #         script: |
   #           rm -rf ./deployment/*
   #           rm -rf ${{ vars.UAT_TOMCAT }}/digi*
+  # 
             
   deploy: 
     needs: [cleanup]
